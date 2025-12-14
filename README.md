@@ -155,13 +155,5 @@ Image.png           # Default image
 
 This project is released under the MIT License.
 
-## 🙏 Credits
-
-- Design: Modern glassmorphism UI
-- Icons: Lucide React
-- Image: TOKI Logo
-
----
-
 **Version**: 1.0.0  
-**Last Updated**: December 2024
+**Last Updated**: December 2025

@@ -1,7 +1,7 @@
 {
   "name": "slide-puzzle-game",
   "version": "1.0.0",
-  "description": "A modern slide puzzle game with TOKI logo",
+  "description": "A modern slide puzzle game",
   "private": true,
   "scripts": {
     "dev": "vite",
