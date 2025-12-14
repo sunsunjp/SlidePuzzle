@@ -408,7 +408,7 @@ const SlidePuzzle = () => {
                           height: '100%',
                           backgroundImage: `url(${IMAGE_URL})`,
                           backgroundSize: `${difficulty * 100}% ${difficulty * 100}%`,
-                          backgroundPosition: `${((tile - 1) % difficulty) * tileSize}% ${Math.floor((tile - 1) / difficulty) * tileSize}%`
+                          backgroundPosition: `${-((tile - 1) % difficulty) * tileSize}% ${-Math.floor((tile - 1) / difficulty) * tileSize}%`
                         }} />
                         
                         {/* Number */}
