@@ -2,7 +2,9 @@
 
 A modern slide puzzle game with time limit and move counter.
 
-![Game Screenshot](./screenshot.png)
+👇️PLAY
+
+https://slidepuzzle.sunsdev.net/
 
 ## 🎮 Overview
 
