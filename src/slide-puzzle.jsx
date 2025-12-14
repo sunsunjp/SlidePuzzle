@@ -406,10 +406,21 @@ const SlidePuzzle = () => {
                         <div style={{
                           width: '100%',
                           height: '100%',
-                          backgroundImage: `url(${IMAGE_URL})`,
-                          backgroundSize: `${difficulty * 100}% ${difficulty * 100}%`,
-                          backgroundPosition: `${-((tile - 1) % difficulty) * tileSize}% ${-Math.floor((tile - 1) / difficulty) * tileSize}%`
-                        }} />
+                          backgroundColor: '#FFFFFF',
+                          overflow: 'hidden',
+                          position: 'relative'
+                        }}>
+                          <div style={{
+                            width: `${difficulty * 100}%`,
+                            height: `${difficulty * 100}%`,
+                            backgroundImage: `url(${IMAGE_URL})`,
+                            backgroundSize: '100% 100%',
+                            backgroundRepeat: 'no-repeat',
+                            position: 'absolute',
+                            left: `${-((tile - 1) % difficulty) * 100}%`,
+                            top: `${-Math.floor((tile - 1) / difficulty) * 100}%`
+                          }} />
+                        </div>
                         
                         {/* Number */}
                         <div style={{
