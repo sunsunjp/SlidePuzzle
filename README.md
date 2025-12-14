@@ -65,7 +65,7 @@ Edit the `IMAGE_URL` constant on line 7:
 // ====================================
 // Image URL Setting (Change this)
 // ====================================
-const IMAGE_URL = 'https://your-image-url.com/image.png';
+const IMAGE_URL = 'https://github.com/sunsunjp/SlidePuzzle/blob/main/image.png';
 ```
 
 **Recommended Image Specifications:**
