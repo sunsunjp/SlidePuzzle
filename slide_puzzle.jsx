@@ -5,7 +5,7 @@ const SlidePuzzle = () => {
   // ====================================
   // Image URL Setting (Change this)
   // ====================================
-  const IMAGE_URL = 'https://i.imgur.com/placeholder.png';
+  const IMAGE_URL = 'https://github.com/sunsunjp/SlidePuzzle/blob/main/image.png';
   
   const [difficulty, setDifficulty] = useState(3);
   const [tiles, setTiles] = useState([]);
